@@ -1,0 +1,20 @@
+<div class="row start">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <div>
+            <span>Creater </span>
+            <select name="cars" class="cars" ng-model="car" ng-change="createModelsList(car)">
+                <option ng-repeat="car in carList" value="{{car}}">{{car}}</option>
+            </select>
+        </div>
+        <div>
+            <span>Model </span>
+            <select name="model" class="models" ng-model="model" ng-options="model.name for model in modelsList" ng-change="changeModel(model)"></select>
+        </div>
+        <div>
+            <label for="distance">Distance <input type="number" min="1" ng-model='distance'/></label>
+        </div>
+        <a href="http://localhost:8000/app/index.html#/result" class="btn btn-primary" ng-click="getDistance(distance)">Ok</a>
+    </div>
+    <div class="col-md-4"></div>
+</div>

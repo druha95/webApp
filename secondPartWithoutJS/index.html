@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Test web-app</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                <span class="sr-only">Open nav</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="responsive-menu">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+        	<label for="number">Enter number <input type="number" min="1" id="number" value="9"></label>
+        </div>
+        <div class="col-md-4"></div>
+	</div>
+	<div class="row start">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"><span class="counter"></span></div>
+        <div class="col-md-4"></div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="Test">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Test web-app</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="style/style.css"/>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="js/controllers/controllers.js"></script>
+    <script type="text/javascript" src="js/services/services.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+
+<body>
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                    <span class="sr-only">Open nav</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="responsive-menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="http://localhost:8000/app/index.html#/" class="btn btn-success">Start</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" ng-view="">
+        
+        
+    </div>
+
+
+</body>
+</html>

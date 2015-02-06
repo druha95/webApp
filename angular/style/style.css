@@ -1,0 +1,38 @@
+
+
+
+
+select {
+    width: 100px;
+    margin: 10px 10px;
+}
+
+.models {
+    margin-left: 18px;
+}
+
+li {
+
+    margin: 8px 10px;
+
+}
+
+li a {
+      color: white !important; 
+}
+
+
+span {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.result{
+   display: none;
+   text-align: left;
+   font-size: 24pt;
+}
+
+.error {
+    border: 2px solid red;
+}
